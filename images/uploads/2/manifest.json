@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/18ge9debh41-m88ljcu4",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Blank Manifest"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/18ge9debh41-m88ljcu4/canvas/hr9ug1et6bb-m88lksxu",
+      "type": "Canvas",
+      "height": 22939,
+      "width": 34342,
+      "label": {
+        "en": [
+          ""
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/18ge9debh41-m88ljcu4/canvas/hr9ug1et6bb-m88lksxu/annotation-page/5vnpw421l26-m88lksxu",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/18ge9debh41-m88ljcu4/canvas/hr9ug1et6bb-m88lksxu/annotation-page/5vnpw421l26-m88lksxu/annotation/z2akis85oa-m88ly70c",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/18ge9debh41-m88ljcu4/canvas/hr9ug1et6bb-m88lksxu",
+              "body": {
+                "id": "https://stacks.stanford.edu/image/iiif/hs631zg4177/hs631zg4177_00_0001/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 22939,
+                "width": 34342,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://stacks.stanford.edu/image/iiif/hs631zg4177/hs631zg4177_00_0001",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 34342,
+                    "height": 22939,
+                    "sizes": [
+                      {
+                        "width": 134,
+                        "height": 90
+                      },
+                      {
+                        "width": 268,
+                        "height": 179
+                      },
+                      {
+                        "width": 537,
+                        "height": 358
+                      },
+                      {
+                        "width": 1073,
+                        "height": 717
+                      },
+                      {
+                        "width": 2146,
+                        "height": 1434
+                      },
+                      {
+                        "width": 4293,
+                        "height": 2867
+                      },
+                      {
+                        "width": 8586,
+                        "height": 5735
+                      },
+                      {
+                        "width": 17171,
+                        "height": 11470
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 1024,
+                        "height": 1024,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64,
+                          128,
+                          256
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json"
+                    ],
+                    "id": "https://stacks.stanford.edu/image/iiif/hs631zg4177/hs631zg4177_00_0001"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://stammgeschichte.github.io/CAS25/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in stammgeschichte/CAS25 project"
+        ]
+    },
+    "items": []
+}
